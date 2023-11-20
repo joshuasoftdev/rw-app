@@ -22,5 +22,9 @@
   "prisma": {
     "seed": "yarn rw exec seed"
   },
-  "packageManager": "yarn@3.7.0"
+  "packageManager": "yarn@3.7.0",
+  "dependencies": {
+    "@types/graphql": "^14.5.0",
+    "graphql": "^16.8.1"
+  }
 }
